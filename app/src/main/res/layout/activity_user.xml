@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.alpha1.User">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:id="@+id/textInputLayout">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/colorAccent"
+            android:inputType="textEmailAddress"
+            android:id="@+id/edittext"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_below="@+id/textInputLayout"
+        android:textColorHint="@color/colorPrimary"
+        app:passwordToggleEnabled="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textInputLayout2">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/edittext2"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textInputLayout2"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/round"
+        android:text="@string/register"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/round"
+        android:text="@string/login"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.alpha1.HospitalRegister">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:id="@+id/textInputLayout8">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:id="@+id/edittextd"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="@string/name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_below="@+id/textInputLayout8"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textInputLayout9">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:inputType="text"
+            android:id="@+id/edittextc"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="@string/address" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_below="@+id/textInputLayout9"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:id="@+id/textInputLayout10">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/edittextb"
+
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:hint="@string/average_blood" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button6"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/round"
+        android:text="@string/register"
+        android:textColor="@android:color/white" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner2"
+        android:layout_centerHorizontal="true">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:textColorHint="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_below="@+id/textInputLayout10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/edittexta"
+            android:hint="@string/pass" />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>

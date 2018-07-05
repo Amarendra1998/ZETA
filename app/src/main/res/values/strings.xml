@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Alpha1</string>
+
+    <string name="hspital">Hspital</string>
+    <string name="user">User</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="register0">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="password0">Password</string>
+    <string name="last_donated">Last donated</string>
+    <string name="register7">Register</string>
+    <string name="name1">Name</string>
+    <string name="address1">Address</string>
+    <string name="average_blood_required">Average Blood Required</string>
+    <string name="amarendra">Amarendra</string>
+    <string name="name3">Name</string>
+    <string name="address4">Address</string>
+    <string name="register5">Register</string>
+    <string name="login4">Login</string>
+    <string name="pass">Password</string>
+    <string name="hospital">Hospital</string>
+    <string name="average_blood">Average Blood</string>
+    <string-array name="numbers">
+        <item>A</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>C</item>
+        <item>C+</item>
+        <item>C-</item>
+        <item>O</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+</resources>
